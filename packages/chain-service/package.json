@@ -1,0 +1,41 @@
+{
+  "author": "NamPC <nampham@subwallet.app>",
+  "bugs": "https://github.com/Koniverse/SubWallet-Chain/issues",
+  "contributors": [],
+  "description": "Provides classes and interfaces to handle logic on SubWallet",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "homepage": "https://github.com/Koniverse/SubWallet-Chain/tree/master/packages/chain-service#readme",
+  "license": "Apache-2.0",
+  "maintainers": [],
+  "name": "@subwallet/chain-service",
+  "repository": {
+    "directory": "packages/chain-service",
+    "type": "git",
+    "url": "https://github.com/Koniverse/SubWallet-Chain.git"
+  },
+  "sideEffects": [
+    "./detectPackage.js",
+    "./detectPackage.cjs"
+  ],
+  "type": "module",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "@acala-network/api": "^4.1.8-2.3",
+    "@oak-foundation/types": "^0.0.23",
+    "@phala/typedefs": "^0.2.32",
+    "@polkadot/api": "^9.10.4",
+    "@polkadot/api-contract": "^9.10.4",
+    "@polkadot/rpc-provider": "^9.10.4",
+    "@polkadot/types": "^9.10.4",
+    "@polkadot/util": "^10.2.1",
+    "@polkadot/util-crypto": "^10.2.1",
+    "@subwallet/chain-list": "^0.0.1",
+    "eventemitter3": "^4.0.7",
+    "web3-eth-contract": "^1.8.1",
+    "rxjs": "^7.8.0",
+    "web3": "^1.8.1"
+  }
+}
